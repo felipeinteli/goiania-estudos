@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+
+.titulo-principal{
+    color: red;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.botao-princpal{
+    border: 1px solid black;
+    background-image: linear-gradient(to right, #E06D13, #F29120);
+    
+}
+
+.vertical-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    background-color: #fff;
+    height: 10vh;
+    width: 100%;
+}
